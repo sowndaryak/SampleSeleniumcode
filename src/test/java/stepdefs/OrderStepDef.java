@@ -67,7 +67,7 @@ public class OrderStepDef  extends TestBase{
 			@When("user enters email {string}")
 			public void user_enters_email(String user) {
 				lp.userdetail(user);
-				
+				System.out.println("unstaged example");
 			}
 			
 			    
