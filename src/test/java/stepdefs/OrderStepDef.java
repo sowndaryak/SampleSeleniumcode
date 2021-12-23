@@ -34,6 +34,7 @@ public class OrderStepDef  extends TestBase{
 		public void user_is_on_homepage() {
 		    String title=homepage.getHomeTitle();
 		    Assert.assertEquals(title, "Your Store");
+			System.out.println("Trying for pull operation");
 		}
 
 		@When("User search an {string}")
